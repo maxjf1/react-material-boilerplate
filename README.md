@@ -6,11 +6,14 @@ This is an boilerplate for an base React PWApp using Material UI
 
 This boilerplate uses `create-react-app`. You can [Download the newest release](https://github.com/maxjf1/react-material-boilerplate/releases) or clone the repository:
 
+```sh
     npm install -g create-react-app # If you don't have it installed
     git clone git@github.com:maxjf1/react-material-boilerplate.git my-project
     cd my-project
     npm install
     npm start
+    rm -rf .git # To remove boilerplate git refference
+```
 
 To change the Material UI theme check the [App Component](src/App.js)
 
