@@ -12,7 +12,7 @@ This boilerplate uses `create-react-app`. You can [Download the newest release](
     cd my-project
     npm install
     npm start
-    rm -rf .git # To remove boilerplate git refference
+    rm -rf .git # To remove boilerplate git reference
 ```
 
 To change the Material UI theme check the [App Component](src/App.js)
