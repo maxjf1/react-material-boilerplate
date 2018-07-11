@@ -11,11 +11,28 @@ This boilerplate uses `create-react-app`. You can [Download the newest release](
     git clone git@github.com:maxjf1/react-material-boilerplate.git my-project
     cd my-project
     npm install
-    npm start
     rm -rf .git # To remove boilerplate git reference
 ```
 
-To change the Material UI theme check the [App Component](src/App.js)
+Now you can change :
+
+- [`package.json`](package.json) project name and GitHub pages URL
+- [Project Settings](src/settings.js) such as Material UI theme colors and settings 
+- The [Manifest File](public/manifest.json) and [Index Page](public/index.html) (for Project title, name, meta tags and theme colors to math project settings).
+
+After setup, you can start the project
+
+```sh
+    npm start
+```
+
+to deploy the project to GitHub Pages, run:
+
+```sh
+    npm run deploy
+```
+
+You can check an demo at [https://maxjf1.github.io/react-material-boilerplate/](https://maxjf1.github.io/react-material-boilerplate/).
 
 ## Features
 
