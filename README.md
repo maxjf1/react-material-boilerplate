@@ -1,6 +1,6 @@
 # React Material UI Boilerplate
 
-This is an boilerplate for an base React PWApp using Material UI
+This is an Ract APP boilerplate based on CRA using Material UI
 
 ## Installation
 
@@ -10,7 +10,7 @@ This boilerplate uses `create-react-app`. You can [Download the newest release](
     npm install -g create-react-app # If you don't have it installed
     git clone git@github.com:maxjf1/react-material-boilerplate.git my-project
     cd my-project
-    npm install
+    yarn install
     rm -rf .git # To remove boilerplate git reference
 ```
 
